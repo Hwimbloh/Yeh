@@ -192,6 +192,34 @@ jQuery(document).ready(function () {
 
         StatusBar.overlaysWebView(false);
 
+        
+    var logo = localStorage.login;
+
+
+    var uid = localStorage.uid;
+
+    if (logo == "true" && uid != " ") {
+
+        showchats();
+
+        fetcho();
+
+
+    }
+
+
+
+    else {
+
+        window.location.href = "#register";
+
+        alert("Sign Up If You Dont Have An Account...Sign In If You Have One.");
+
+    }
+
+
+
+        
     }
 
     onLoad();
@@ -2008,32 +2036,6 @@ jQuery(document).ready(function () {
 
 
     }
-
-
-    var logo = localStorage.login;
-
-
-    var uid = localStorage.uid;
-
-    if (logo == "true" && uid != " ") {
-
-        showchats();
-
-        fetcho();
-
-
-    }
-
-
-
-    else {
-
-        window.location.href = "#register";
-
-        alert("Sign Up If You Dont Have An Account...Sign In If You Have One.");
-
-    }
-
 
 
     jQuery(".viewyslide").on("tap", function () {
