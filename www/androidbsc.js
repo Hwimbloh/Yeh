@@ -469,7 +469,7 @@ jQuery(document).ready(function () {
 
         }
 
-		
+/*		
 	
         try {
 
@@ -566,7 +566,7 @@ localStorage.puso = "no";
         }
 
 
-
+*/
         function replaceqt(yut) {
 
             try {
