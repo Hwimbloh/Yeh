@@ -311,7 +311,7 @@ jQuery(document).ready(function () {
 
                 alert("Don't Have An Account? Please Sign Up.");
 				
-                  setTimeout(getlocky, 6000);
+                  setTimeout(getlocky, 20000);
 
 
              
